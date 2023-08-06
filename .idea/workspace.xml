@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Remove nth Node from End of List solution">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/SortColors.java" afterDir="false" />
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Sort Colors solution">
+      <change afterPath="$PROJECT_DIR$/src/twopointer/ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReverseWords">
     <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twopointer.ReverseLinkedList" />
       <module name="DS-Algo-Patterns" />
@@ -55,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.ReverseWords" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twopointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
@@ -98,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691267034701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sort Colors solution">
+      <created>1691348025525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691348025525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +138,7 @@
     <MESSAGE value="Valid Palindrome solution" />
     <MESSAGE value="Sum of three solution" />
     <MESSAGE value="Remove nth Node from End of List solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove nth Node from End of List solution" />
+    <MESSAGE value="Sort Colors solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort Colors solution" />
   </component>
 </project>
