@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Valid Palindrome II solution">
-      <change afterPath="$PROJECT_DIR$/src/twopointer/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Remove Duplicates from Sorted Array solution">
+      <change afterPath="$PROJECT_DIR$/src/twopointer/SquaresOfSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/SumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/SumOfThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.SquaresOfSortedArray">
     <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twopointer.RemoveDuplicates" />
       <module name="DS-Algo-Patterns" />
@@ -82,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SquaresOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.SquaresOfSortedArray" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twopointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidPalindrome2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="twopointer.ValidPalindrome2" />
       <module name="DS-Algo-Patterns" />
@@ -97,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquaresOfSortedArray" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.ValidPalindrome2" />
         <item itemvalue="Application.ReverseWords" />
@@ -162,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691371654585</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Remove Duplicates from Sorted Array solution">
+      <created>1691373894299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691373894299</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +204,7 @@
     <MESSAGE value="Sort Colors solution" />
     <MESSAGE value="Reverse Words solution" />
     <MESSAGE value="Valid Palindrome II solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid Palindrome II solution" />
+    <MESSAGE value="Remove Duplicates from Sorted Array solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Duplicates from Sorted Array solution" />
   </component>
 </project>

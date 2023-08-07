@@ -38,7 +38,7 @@ public class SortColors {
         for (int i = 0; i < inputs.length; i++) {
             out.println((i + 1) + ".\tcolors: " + Arrays.toString(inputs[i]));
             int[] sortedColors = sortColors(inputs[i].clone());
-            out.println("\n\tThe sorted array is: " + Arrays.toString(sortedColors));
+            out.println("\tThe sorted array is: " + Arrays.toString(sortedColors) + '\n');
         }
     }
 }
