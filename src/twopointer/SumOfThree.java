@@ -2,6 +2,8 @@ package twopointer;
 
 import java.util.Arrays;
 
+import static java.lang.System.out;
+
 public class SumOfThree {
     public static boolean findSumOfThree(int[] nums, int target) {
         if (nums == null || nums.length < 3) return false;
@@ -31,13 +33,13 @@ public class SumOfThree {
 
 
         for (int i=0; i<testList.length; i++) {
-            System.out.print(i+1);
-            System.out.println(".\tInput array: " + Arrays.toString(numsList[i]));
+            out.print(i+1);
+            out.println(".\tInput array: " + Arrays.toString(numsList[i]));
 
             if (findSumOfThree(numsList[i], testList[i])) {
-                System.out.println("\tSum for " + testList[i] + " exists ");
+                out.println("\tSum for " + testList[i] + " exists ");
             } else {
-                System.out.println("\tSum for " + testList[i] + " does not exist ");
+                out.println("\tSum for " + testList[i] + " does not exist ");
             }
         }
     }
