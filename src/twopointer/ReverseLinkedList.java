@@ -30,7 +30,7 @@ public class ReverseLinkedList {
         int[] n = {4, 1, 6, 9, 11};
 
         for (int i = 0; i < inputs.length; i++) {
-            LinkedList<Integer> inputLinkedList = new LinkedList<>();
+            LinkedList<Integer> inputLinkedList = new LinkedList();
             inputLinkedList.createLinkedList(inputs[i]);
             out.print((i + 1) + ".\tLinked List:\t\t");
             PrintList.printListWithForwardArrow(inputLinkedList.head);
