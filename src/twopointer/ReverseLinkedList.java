@@ -1,8 +1,8 @@
 package twopointer;
 
-import linkedList.LinkedList;
-import linkedList.LinkedListNode;
-import linkedList.PrintList;
+import linkedlist.LinkedList;
+import linkedlist.LinkedListNode;
+import linkedlist.PrintList;
 
 import static java.lang.System.*;
 

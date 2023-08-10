@@ -1,6 +1,4 @@
-package linkedList;
-
-import static java.lang.System.*;
+package linkedlist;
 
 public class PrintList {
     public static void printListWithForwardArrow(LinkedListNode head) {
