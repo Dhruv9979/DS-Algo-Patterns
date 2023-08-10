@@ -1,11 +1,14 @@
-package linkedList;
+package linkedlist;
+
 // Template for the linked list
 public class LinkedList<T> {
     public LinkedListNode head;
+
     // constructor will be used to make a LinkedList type object
     public LinkedList() {
         this.head = null;
     }
+
     // insertNodeAtHead method will insert a LinkedListNode at head
     // of a linked list.
     public void insertNodeAtHead(LinkedListNode node) {
@@ -14,6 +17,7 @@ public class LinkedList<T> {
         }
         this.head = node;
     }
+
     // createLinkedList method will create the linked list using the
     // given integer array with the help of InsertAthead method.
     public void createLinkedList(int[] lst) {
@@ -22,12 +26,13 @@ public class LinkedList<T> {
             insertNodeAtHead(newNode);
         }
     }
+
     // returns the number of nodes in the linked list
-    public static LinkedListNode getNode(LinkedListNode head, int pos){
+    public static LinkedListNode getNode(LinkedListNode head, int pos) {
         LinkedListNode ptr = head;
-        if (pos != -1){
+        if (pos != -1) {
             int p = 0;
-            while (p < pos){
+            while (p < pos) {
                 ptr = ptr.next;
                 p += 1;
             }
@@ -35,9 +40,9 @@ public class LinkedList<T> {
         }
         return ptr;
     }
+
     // returns the node at the specified position(index) of the linked list
-    public static int getLength(LinkedListNode head)
-    {
+    public static int getLength(LinkedListNode head) {
         LinkedListNode temp = head;
         int count = 0;
         while (temp != null) {

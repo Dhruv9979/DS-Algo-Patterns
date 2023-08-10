@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Happy number solution">
-      <change afterPath="$PROJECT_DIR$/src/fastAndSlowPointers/CycleDetection.java" afterDir="false" />
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Cycle Detection solution">
+      <change afterPath="$PROJECT_DIR$/src/fastAndSlowPointers/MiddleOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedListReversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedListTraversal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/slidingWindow/SubArrayProductLessThanK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/PrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/PrintList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CycleDetection">
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
     <configuration name="CycleDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fastAndSlowPointers.CycleDetection" />
       <module name="DS-Algo-Patterns" />
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.SubArrayProductLessThanK" />
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastAndSlowPointers.MiddleOfLinkedList" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.*" />
+          <option name="PATTERN" value="fastAndSlowPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.ThreeSum" />
+    <configuration name="SubArrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.SubArrayProductLessThanK" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.CycleDetection" />
         <item itemvalue="Application.HappyNumber" />
         <item itemvalue="Application.SubArrayProductLessThanK" />
         <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691556092571</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cycle Detection solution">
+      <created>1691631842406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691631842406</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +243,7 @@
     <MESSAGE value="Squares of Sorted Array solution" />
     <MESSAGE value="Three Sum solution" />
     <MESSAGE value="Happy number solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Happy number solution" />
+    <MESSAGE value="Cycle Detection solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cycle Detection solution" />
   </component>
 </project>
