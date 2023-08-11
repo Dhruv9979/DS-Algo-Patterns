@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Cycle Detection solution">
-      <change afterPath="$PROJECT_DIR$/src/fastAndSlowPointers/MiddleOfLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedListReversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedListTraversal.java" afterDir="false" />
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Palindrome Linked List solution">
+      <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/PalindromeLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/slidingWindow/SubArrayProductLessThanK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fastAndSlowPointers/CycleDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fastandslowpointers/CycleDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fastAndSlowPointers/HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fastandslowpointers/HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fastAndSlowPointers/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fastandslowpointers/MiddleOfLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MiddleOfLinkedList">
+  <component name="RunManager" selected="Application.PalindromeLinkedList">
     <configuration name="CycleDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastAndSlowPointers.CycleDetection" />
+      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.CycleDetection" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastAndSlowPointers.*" />
+          <option name="PATTERN" value="fastandslowpointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.FindDuplicate" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fastandslowpointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,11 +79,11 @@
       </method>
     </configuration>
     <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastAndSlowPointers.HappyNumber" />
+      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.HappyNumber" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastAndSlowPointers.*" />
+          <option name="PATTERN" value="fastandslowpointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastAndSlowPointers.MiddleOfLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.MiddleOfLinkedList" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastAndSlowPointers.*" />
+          <option name="PATTERN" value="fastandslowpointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.SubArrayProductLessThanK" />
+    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.PalindromeLinkedList" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.ThreeSumClosest" />
-      <module name="DS-Algo-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.*" />
+          <option name="PATTERN" value="fastandslowpointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeLinkedList" />
+        <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.MiddleOfLinkedList" />
         <item itemvalue="Application.CycleDetection" />
         <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.SubArrayProductLessThanK" />
-        <item itemvalue="Application.ThreeSumClosest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691631842406</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Middle of Linked List solution">
+      <created>1691632633451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691632633451</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Middle of Linked List solution">
+      <created>1691632658040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691632658040</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +261,8 @@
     <MESSAGE value="Three Sum solution" />
     <MESSAGE value="Happy number solution" />
     <MESSAGE value="Cycle Detection solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cycle Detection solution" />
+    <MESSAGE value="Middle of Linked List solution" />
+    <MESSAGE value="Palindrome Linked List solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome Linked List solution" />
   </component>
 </project>
