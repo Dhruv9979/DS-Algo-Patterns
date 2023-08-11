@@ -1,4 +1,4 @@
-package fastAndSlowPointers;
+package fastandslowpointers;
 
 import static java.lang.System.out;
 
