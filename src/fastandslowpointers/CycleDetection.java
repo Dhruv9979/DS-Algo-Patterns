@@ -1,4 +1,4 @@
-package fastAndSlowPointers;
+package fastandslowpointers;
 
 import linkedlist.LinkedList;
 import linkedlist.LinkedListNode;
