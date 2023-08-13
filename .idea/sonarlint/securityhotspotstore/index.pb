@@ -13,8 +13,6 @@ S
 #src/twopointer/ValidPalindrome.java,8\6\8673cc2818821588199214ebe8b699df2a2535b3
 _
 /src/slidingWindow/SubArrayProductLessThanK.java,c\5\c542bf007df6d0a98654eab6abe350b1610a19c0
-L
-src/twopointer/ThreeSum.java,9\a\9a973c20761a487540ccfbd8335008558a474d0c
 S
 #src/twopointer/ThreeSumClosest.java,a\a\aa17c1468e8ada33a42f49b29d103f4a592ee667
 X

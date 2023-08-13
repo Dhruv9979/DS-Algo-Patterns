@@ -15,8 +15,6 @@ _
 /src/slidingWindow/SubArrayProductLessThanK.java,c\5\c542bf007df6d0a98654eab6abe350b1610a19c0
 X
 (src/fastAndSlowPointers/HappyNumber.java,8\f\8f8f61cf7939c3248fc05a2a501f37567dd11461
-L
-src/twopointer/ThreeSum.java,9\a\9a973c20761a487540ccfbd8335008558a474d0c
 S
 #src/twopointer/ThreeSumClosest.java,a\a\aa17c1468e8ada33a42f49b29d103f4a592ee667
 N
