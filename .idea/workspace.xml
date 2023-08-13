@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Longest Substring With K Distinct Characters solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Fruits Into Basket solution">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/slidingwindow/FindRepeatedSequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/FruitsIntoBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a973c20761a487540ccfbd8335008558a474d0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/a/9a973c20761a487540ccfbd8335008558a474d0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FruitsIntoBasket">
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
     <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FruitsIntoBasket" />
       <module name="DS-Algo-Patterns" />
@@ -77,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSubArraySizeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSubArraySizeSum" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithoutRepeatingCharacters" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -90,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastandslowpointers.PalindromeLinkedList" />
+    <configuration name="MinimumSubArraySizeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSubArraySizeSum" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastandslowpointers.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.FruitsIntoBasket" />
         <item itemvalue="Application.LongestSubstringWithKDistinctCharacters" />
         <item itemvalue="Application.SubArrayProductLessThanK" />
         <item itemvalue="Application.MinimumSubArraySizeSum" />
-        <item itemvalue="Application.PalindromeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691965497137</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fruits Into Basket solution">
+      <created>1691966906604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691966906604</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +311,7 @@
     <MESSAGE value="Minimum Sub Array Size Sum solution" />
     <MESSAGE value="Sub Array Product Less Than K solution" />
     <MESSAGE value="Longest Substring With K Distinct Characters solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Longest Substring With K Distinct Characters solution" />
+    <MESSAGE value="Fruits Into Basket solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fruits Into Basket solution" />
   </component>
 </project>
