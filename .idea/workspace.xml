@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Fruits Into Basket solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Longest Substring Without Repeating Characters solution">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/FindRepeatedSequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/RepeatedDNASequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
+  <component name="RunManager" selected="Application.RepeatedDNASequences">
     <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FruitsIntoBasket" />
       <module name="DS-Algo-Patterns" />
@@ -86,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSubArraySizeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumSubArraySizeSum" />
+    <configuration name="RepeatedDNASequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.RepeatedDNASequences" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatedDNASequences" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.FruitsIntoBasket" />
         <item itemvalue="Application.LongestSubstringWithKDistinctCharacters" />
         <item itemvalue="Application.SubArrayProductLessThanK" />
-        <item itemvalue="Application.MinimumSubArraySizeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691966906604</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Longest Substring Without Repeating Characters solution">
+      <created>1691968476931</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691968476931</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +318,7 @@
     <MESSAGE value="Sub Array Product Less Than K solution" />
     <MESSAGE value="Longest Substring With K Distinct Characters solution" />
     <MESSAGE value="Fruits Into Basket solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fruits Into Basket solution" />
+    <MESSAGE value="Longest Substring Without Repeating Characters solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Longest Substring Without Repeating Characters solution" />
   </component>
 </project>
