@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Longest Substring Without Repeating Characters solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Repeated DNA Sequences solution">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/RepeatedDNASequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +45,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RepeatedDNASequences">
+  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement">
     <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FruitsIntoBasket" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -98,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubArrayProductLessThanK" />
-      <module name="DS-Algo-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
         <item itemvalue="Application.RepeatedDNASequences" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.FruitsIntoBasket" />
         <item itemvalue="Application.LongestSubstringWithKDistinctCharacters" />
-        <item itemvalue="Application.SubArrayProductLessThanK" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691968476931</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Repeated DNA Sequences solution">
+      <created>1691969922089</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691969922089</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,6 +326,7 @@
     <MESSAGE value="Longest Substring With K Distinct Characters solution" />
     <MESSAGE value="Fruits Into Basket solution" />
     <MESSAGE value="Longest Substring Without Repeating Characters solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Longest Substring Without Repeating Characters solution" />
+    <MESSAGE value="Repeated DNA Sequences solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeated DNA Sequences solution" />
   </component>
 </project>
