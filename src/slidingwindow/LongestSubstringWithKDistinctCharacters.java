@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static java.lang.System.out;
+
 public class LongestSubstringWithKDistinctCharacters {
     public static int longestKSubstring(String str, int k) {
         if(str == null || str.length() == 0 || k == 0) return 0;
@@ -31,9 +33,9 @@ public class LongestSubstringWithKDistinctCharacters {
         List<Integer> inputsK = Arrays.asList(2, 1, 1, 2);
 
         for (int i = 0; i < inputsK.size(); i++) {
-            System.out.println((i + 1) + ".\tInput: " + inputsString.get(i) +
+            out.println((i + 1) + ".\tInput: " + inputsString.get(i) +
                     "\n\tk: " + inputsK.get(i) +
-                    "\n\n\tLength of longest substring is: " + longestKSubstring(inputsString.get(i), inputsK.get(i)));
+                    "\n\tLength of longest substring is: " + longestKSubstring(inputsString.get(i), inputsK.get(i)) + "\n");
         }
     }
 }

@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static java.lang.System.out;
+
 public class LongestRepeatingCharacterReplacement {
     public static int characterReplacement(String s, int k) {
         int windowStart = 0;
@@ -31,7 +33,7 @@ public class LongestRepeatingCharacterReplacement {
         List<Integer> inputsK = Arrays.asList(2, 1);
 
         for (int i = 0; i < inputsK.size(); i++) {
-            System.out.println((i + 1) + ".\tInput: " + inputsString.get(i) +
+            out.println((i + 1) + ".\tInput: " + inputsString.get(i) +
                     "\n\tk: " + inputsK.get(i) +
                     "\n\tLongest Substring length: " + characterReplacement(inputsString.get(i), inputsK.get(i)) + "\n");
         }

@@ -2,6 +2,8 @@ package slidingwindow;
 
 import java.util.*;
 
+import static java.lang.System.out;
+
 public class RepeatedDNASequences {
     public static Set<String> findRepeatedSequences(String s, int k) {
         HashSet<String> repeatedSequences = new HashSet<>();
@@ -26,9 +28,9 @@ public class RepeatedDNASequences {
         List<Integer> inputsK = Arrays.asList(3, 3, 8, 12, 10, 14, 10, 6);
 
         for (int i = 0; i < inputsK.size(); i++) {
-            System.out.println((i + 1) + ".\tInput sequence: " + inputsString.get(i) +
+            out.println((i + 1) + ".\tInput sequence: " + inputsString.get(i) +
                     "\n\tk: " + inputsK.get(i) +
-                    "\n\n\tRepeated sequences: " + findRepeatedSequences(inputsString.get(i), inputsK.get(i)));
+                    "\n\tRepeated sequences: " + findRepeatedSequences(inputsString.get(i), inputsK.get(i)) + "\n");
         }
     }
 }
