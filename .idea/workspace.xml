@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Repeated DNA Sequences solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Fixed formatting">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaxConsecutiveOnesIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement">
+  <component name="RunManager" selected="Application.MaxConsecutiveOnesIII">
     <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FruitsIntoBasket" />
       <module name="DS-Algo-Patterns" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithKDistinctCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithKDistinctCharacters" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithoutRepeatingCharacters" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithoutRepeatingCharacters" />
+    <configuration name="MaxConsecutiveOnesIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxConsecutiveOnesIII" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxConsecutiveOnesIII" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
         <item itemvalue="Application.RepeatedDNASequences" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.FruitsIntoBasket" />
-        <item itemvalue="Application.LongestSubstringWithKDistinctCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +291,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691969922089</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Longest Repeating Character Replacement solution">
+      <created>1692067479009</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692067479009</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Longest Repeating Character Replacement solution">
+      <created>1692067489286</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692067489286</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed formatting">
+      <created>1692068250224</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692068250224</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +348,8 @@
     <MESSAGE value="Fruits Into Basket solution" />
     <MESSAGE value="Longest Substring Without Repeating Characters solution" />
     <MESSAGE value="Repeated DNA Sequences solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repeated DNA Sequences solution" />
+    <MESSAGE value="Longest Repeating Character Replacement solution" />
+    <MESSAGE value="Fixed formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed formatting" />
   </component>
 </project>
