@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Fixed formatting">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment=" Max Consecutive Ones III solution">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MaxConsecutiveOnesIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/PermutationInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxConsecutiveOnesIII">
-    <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.FruitsIntoBasket" />
-      <module name="DS-Algo-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PermutationInString">
     <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
       <module name="DS-Algo-Patterns" />
@@ -98,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.PermutationInString" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatedDNASequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.RepeatedDNASequences" />
       <module name="DS-Algo-Patterns" />
@@ -113,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.MaxConsecutiveOnesIII" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
         <item itemvalue="Application.RepeatedDNASequences" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.FruitsIntoBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692068250224</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=" Max Consecutive Ones III solution">
+      <created>1692069364423</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692069364423</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,6 +356,7 @@
     <MESSAGE value="Repeated DNA Sequences solution" />
     <MESSAGE value="Longest Repeating Character Replacement solution" />
     <MESSAGE value="Fixed formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed formatting" />
+    <MESSAGE value=" Max Consecutive Ones III solution" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Max Consecutive Ones III solution" />
   </component>
 </project>
