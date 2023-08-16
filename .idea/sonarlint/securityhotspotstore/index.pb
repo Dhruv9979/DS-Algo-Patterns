@@ -51,3 +51,11 @@ N
 src/twopointer/SortColors.java,a\9\a946360fa395278734f439b2a2c50549175849a5
 N
 src/twopointer/SumOfThree.java,3\a\3ac159998fc0aa3d15c27a19561019dcb0912af5
+W
+'src/slidingwindow/FruitsIntoBasket.java,0\e\0e48a0c2a1226e680fedd4ac5a1e2868d4ddac33
+]
+-src/slidingwindow/MinimumSubArraySizeSum.java,5\e\5ea8302cace063474aa83b2b31dcaca335b227e9
+_
+/src/slidingwindow/SubArrayProductLessThanK.java,3\b\3bf4d8758f841dc3af1d2ea65d744fbbc4db8073
+[
++src/slidingwindow/RepeatedDNASequences.java,b\b\bbe231790629ff3c5796ff24b69fb1a75344203b
