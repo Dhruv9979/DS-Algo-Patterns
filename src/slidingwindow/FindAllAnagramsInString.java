@@ -29,9 +29,9 @@ public class FindAllAnagramsInString {
         List<String> inputP = Arrays.asList("abc", "ab");
 
         for (int i = 0; i < inputS.size(); i++) {
-            out.println((i + 1) + ".\tInput: " + inputS.get(i) +
-                    "\n\tk: " + inputP.get(i) +
-                    "\n\tStart indices of anagram are: " + findAnagrams(inputS.get(i), inputP.get(i)) + "\n");
+            out.println((i + 1) + ".\tInput S: " + inputS.get(i));
+            out.println("\tP: " + inputP.get(i));
+            out.println("\tStart indices of anagram are: " + findAnagrams(inputS.get(i), inputP.get(i)) + "\n");
         }
     }
 }

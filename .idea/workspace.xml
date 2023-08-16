@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Find All Anagrams In String solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Minimum window substring solution">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubstringWithConcatenationOfAllWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c1b94453ca8c63e20a6fa02fb5595b9c8ba6dd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3c1b94453ca8c63e20a6fa02fb5595b9c8ba6dd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +50,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+  <component name="RunManager" selected="Application.SubstringWithConcatenationOfAllWords">
     <configuration name="FindAllAnagramsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.FindAllAnagramsInString" />
-      <module name="DS-Algo-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubstringWithConcatenationOfAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubstringWithConcatenationOfAllWords" />
+      <module name="DS-Algo-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.SubstringWithConcatenationOfAllWords" />
         <item itemvalue="Application.FindAllAnagramsInString" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.PermutationInString" />
         <item itemvalue="Application.MaxConsecutiveOnesIII" />
-        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692192216671</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Minimum window substring solution">
+      <created>1692196056803</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1692196056803</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Valid Palindrome solution" />
     <MESSAGE value="Sum of three solution" />
     <MESSAGE value="Remove nth Node from End of List solution" />
     <MESSAGE value="Sort Colors solution" />
@@ -373,6 +384,7 @@
     <MESSAGE value=" Max Consecutive Ones III solution" />
     <MESSAGE value="Permutation In String solution" />
     <MESSAGE value="Find All Anagrams In String solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find All Anagrams In String solution" />
+    <MESSAGE value="Minimum window substring solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minimum window substring solution" />
   </component>
 </project>

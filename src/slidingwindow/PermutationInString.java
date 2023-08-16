@@ -33,9 +33,9 @@ public class PermutationInString {
         List<String> inputS2 = Arrays.asList("eidbaooo", "eidboaoo", "dcda");
 
         for (int i = 0; i < inputS1.size(); i++) {
-            out.println((i + 1) + ".\tInput: " + inputS1.get(i) +
-                    "\n\tk: " + inputS2.get(i) +
-                    "\n\tLength of longest substring is: " + checkInclusion(inputS1.get(i), inputS2.get(i)) + "\n");
+            out.println((i + 1) + ".\tInput S1: " + inputS1.get(i));
+            out.println("\tS2: " + inputS2.get(i));
+            out.println("\tLength of longest substring is: " + checkInclusion(inputS1.get(i), inputS2.get(i)) + "\n");
         }
     }
 }
