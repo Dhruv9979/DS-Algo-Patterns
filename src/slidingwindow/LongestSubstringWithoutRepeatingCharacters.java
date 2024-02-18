@@ -1,29 +1,24 @@
 package slidingwindow;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static java.lang.System.out;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static int lengthOfLongestSubstring(String str) {
         if(str == null || str.length() == 0) return 0;
-        Map<Character, Integer> map = new HashMap<>();
-        int maxLen = 0;
+        Set<Character> set = new HashSet<>();
         int windowStart = 0;
         int windowEnd = 0;
+        int max = 0;
         while(windowEnd < str.length()) {
-            Character right = str.charAt(windowEnd);
-            if(map.containsKey(right)) {
-                windowStart = Math.max(windowStart, map.get(right) + 1);
-            }
-            map.put(right, windowEnd);
-            maxLen = Math.max(maxLen, windowEnd - windowStart + 1);
-            windowEnd++;
+            if(!set.contains(str.charAt(windowEnd))) {
+                set.add(str.charAt(windowEnd++));
+                max = Math.max(max, set.size());
+            } else
+                set.remove(str.charAt(windowStart++));
         }
-        return maxLen;
+        return max;
     }
 
     public static void main(String[] args) {
