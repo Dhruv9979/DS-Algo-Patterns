@@ -31,9 +31,8 @@ public class SumOfThree {
 
         int[] testList = {10, 7, 20, -1, 8};
 
-
-        for (int i=0; i<testList.length; i++) {
-            out.print(i+1);
+        for (int i = 0; i < testList.length; i++) {
+            out.print(i + 1);
             out.println(".\tInput array: " + Arrays.toString(numsList[i]));
 
             if (findSumOfThree(numsList[i], testList[i])) {

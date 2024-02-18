@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Minimum window substring solution">
+    <list default="true" id="07ebc517-54d8-406d-9f35-0195595e03e4" name="Changes" comment="Made output code more readable">
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/CircularArrayLoop.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/fastandslowpointers/FindDuplicate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/slidingwindow/SubstringWithConcatenationOfAllWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c1b94453ca8c63e20a6fa02fb5595b9c8ba6dd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e48a0c2a1226e680fedd4ac5a1e2868d4ddac33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11920ea7db7bf55bfaf8d5461697c325f21381a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bf4d8758f841dc3af1d2ea65d744fbbc4db8073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70f41b0ed4ea586c17219e425a95aa45add33d65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76f92c0bb2a158d07e6c78bd78b63efd92615027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8673cc2818821588199214ebe8b699df2a2535b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8673cc2818821588199214ebe8b699df2a2535b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a946360fa395278734f439b2a2c50549175849a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa17c1468e8ada33a42f49b29d103f4a592ee667" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa17c1468e8ada33a42f49b29d103f4a592ee667" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3bac8e25e5277c54fc88947570d9dfe68a485c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd79d64f2d316eb0d1d6164806b4a9b71f50f942" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd79d64f2d316eb0d1d6164806b4a9b71f50f942" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee908b1a655ef3a506f2c8d72480053bb27dff7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff762745411ae7d757593f67517fa29e9b9ac21d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/c/3c1b94453ca8c63e20a6fa02fb5595b9c8ba6dd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/e/0e48a0c2a1226e680fedd4ac5a1e2868d4ddac33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/1/11920ea7db7bf55bfaf8d5461697c325f21381a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/b/3bf4d8758f841dc3af1d2ea65d744fbbc4db8073" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/70f41b0ed4ea586c17219e425a95aa45add33d65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/6/76f92c0bb2a158d07e6c78bd78b63efd92615027" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/9/a946360fa395278734f439b2a2c50549175849a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b3bac8e25e5277c54fc88947570d9dfe68a485c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee908b1a655ef3a506f2c8d72480053bb27dff7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ff762745411ae7d757593f67517fa29e9b9ac21d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/RemoveNthLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/ReverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/SumOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/SumOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +72,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubstringWithConcatenationOfAllWords">
-    <configuration name="FindAllAnagramsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.FindAllAnagramsInString" />
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingCharacters">
+    <configuration name="LongestSubstringWithKDistinctCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithKDistinctCharacters" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOnesIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MaxConsecutiveOnesIII" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubstringWithoutRepeatingCharacters" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumWindowSubstring" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.RemoveDuplicates" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.PermutationInString" />
+    <configuration name="SquaresOfSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.SquaresOfSortedArray" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringWithConcatenationOfAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubstringWithConcatenationOfAllWords" />
+    <configuration name="SumOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.SumOfThree" />
       <module name="DS-Algo-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubstringWithConcatenationOfAllWords" />
-        <item itemvalue="Application.FindAllAnagramsInString" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.PermutationInString" />
-        <item itemvalue="Application.MaxConsecutiveOnesIII" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
+        <item itemvalue="Application.LongestSubstringWithKDistinctCharacters" />
+        <item itemvalue="Application.SumOfThree" />
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.SquaresOfSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692196056803</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Made output code more readable">
+      <created>1692196951891</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692196951891</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sum of three solution" />
     <MESSAGE value="Remove nth Node from End of List solution" />
     <MESSAGE value="Sort Colors solution" />
     <MESSAGE value="Reverse Words solution" />
@@ -385,6 +413,7 @@
     <MESSAGE value="Permutation In String solution" />
     <MESSAGE value="Find All Anagrams In String solution" />
     <MESSAGE value="Minimum window substring solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimum window substring solution" />
+    <MESSAGE value="Made output code more readable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made output code more readable" />
   </component>
 </project>

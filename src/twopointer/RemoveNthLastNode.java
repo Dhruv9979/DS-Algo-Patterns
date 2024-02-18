@@ -6,7 +6,7 @@ import linkedlist.PrintList;
 
 import static java.lang.System.*;
 
-public class ReverseLinkedList {
+public class RemoveNthLastNode {
     public static LinkedListNode removeNthLastNode(LinkedListNode head, int n) {
         LinkedListNode left = head;
         LinkedListNode right = head;

@@ -17,7 +17,7 @@ public class ValidPalindrome {
     }
 
     public static void main(String[] args) {
-        String[] testCase = {"RACEACAR", "A", "ABCDEFGFEDCBA", "ABC", "ABCBA", "ABBA", "RACEACAR"};
+        String[] testCase = {"RACEACAR", "A", "ABCDEFGFEDCBA", "ABC", "ABCBA", "ABBA"};
         for (int k = 0; k < testCase.length; k++) {
             System.out.println("Test Case #" + (k + 1));
             System.out.println(new String(new char[100]).replace('\0', '-'));
